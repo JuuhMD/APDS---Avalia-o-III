@@ -1,0 +1,34 @@
+package dominio;
+
+public class cozinha {
+		private Porta_cozinha Porta;
+		private boolean Americana;
+		private float metroquadrado;
+		
+		public Porta_cozinha getPorta() {
+			return Porta;
+		}
+		
+		public void setPorta (Porta_cozinha porta) {
+			Porta = porta;
+		}
+		
+		public  boolean isaAmericana () {
+			return americana;
+		}
+		
+		public void setAmericana (boolean americana) {
+			this.americana = americana;
+		
+		}
+		public float getmetroquadrado () {
+			return metroquadrado;
+		}
+		public void setmetroquadrado (float Metroquadrado) {
+			metroquadrado = Metroquadrado;
+		}
+		
+		
+		
+		
+}
