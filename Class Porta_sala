@@ -1,0 +1,3 @@
+package dominio; 
+public class Porta_sala extends Porta{
+}
