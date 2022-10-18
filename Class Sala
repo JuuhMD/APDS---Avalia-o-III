@@ -1,0 +1,29 @@
+package dominio;
+
+public class Sala {
+		private Porta_sala Porta_entrada;
+		private float metroquadrado;
+		private Porta Porta_auxiliar
+
+		public Porta_sala getPorta_entrada () {
+			return Porta_entrada;
+		}
+		
+		public void setPorta_entrada (Porta_sala porta_entrada) {
+			Porta_entrada = porta_entrada;
+		}
+		public float getmetroquadrado () {
+			return metroquadrado;
+		}
+		public void setmetroquadrado (float Metroquadrado) {
+			metroquadrado = Metroquadrado;
+		}
+public Porta getPorta_auxiliar () {
+			return Porta_auxiliar;
+		}
+		
+		public void setPorta_auxiliar (Porta porta_auxiliar) {
+			Porta_auxiliar = porta_auxiliar;
+		}
+
+}
