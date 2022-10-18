@@ -1,0 +1,30 @@
+package dominio;
+
+public class Quarto {
+		private Porta_quarto Porta;
+		private boolean Banheiro;
+		private float metroquadrado;
+		
+		public Porta_quarto getPorta() {
+			return Porta;
+		}
+		
+		public void setPorta (Porta_quarto porta) {
+			Porta = porta;
+		}
+		
+		public  boolean isBanheiro () {
+			return Banheiro;
+		}
+		
+		public void setBanheiro (boolean banheiro) {
+			this.banheiro = banheiro;
+		
+		}
+		public float getmetroquadrado () {
+			return metroquadrado;
+		}
+		public void setmetroquadrado (float Metroquadrado) {
+			metroquadrado = Metroquadrado;
+		}
+}
